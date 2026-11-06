@@ -55,8 +55,8 @@ Set up the Eleven Speak agent skill in this project, end to end.
    GitHub Copilot or Claude Code. Use only the installation path for this
    agent:
    - GitHub Copilot: preview and install
-     neronotte/Elevenlabs.Skill / eleven-speak with GitHub CLI.
-   - Claude Code: add neronotte/Elevenlabs.Skill as a plugin marketplace
+     neronotte/ElevenSpeak / eleven-speak with GitHub CLI.
+   - Claude Code: add neronotte/ElevenSpeak as a plugin marketplace
      and install the eleven-speak plugin. If this checkout already contains
      the plugin, use it from this checkout instead.
 2. Read the installed skill's SKILL.md and follow its setup guidance.
@@ -84,8 +84,8 @@ or, if you want to install it in the plain old way, follow the instructions belo
 Install the skill from GitHub with GitHub CLI:
 
 ```shell
-gh skill preview neronotte/Elevenlabs.Skill eleven-speak
-gh skill install neronotte/Elevenlabs.Skill eleven-speak
+gh skill preview neronotte/ElevenSpeak eleven-speak
+gh skill install neronotte/ElevenSpeak eleven-speak
 ```
 
 Review the skill before installing it. By default, `gh skill install` installs
@@ -98,7 +98,7 @@ Add this GitHub repository as a Claude Code marketplace and install the
 plugin:
 
 ```text
-/plugin marketplace add neronotte/Elevenlabs.Skill
+/plugin marketplace add neronotte/ElevenSpeak
 /plugin install eleven-speak@eleven-speak
 ```
 
