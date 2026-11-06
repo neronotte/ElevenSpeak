@@ -1,0 +1,11 @@
+{
+  "name": "eleven-speak",
+  "version": "0.1.0",
+  "description": "Give Claude Code a local ElevenLabs voice skill for spoken notifications and requested speech.",
+  "author": {
+    "name": "neronotte"
+  },
+  "skills": [
+    "./.github/skills"
+  ]
+}

@@ -1,0 +1,3 @@
+elevenlabs
+sounddevice
+portalocker>=3.2,<4

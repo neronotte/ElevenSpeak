@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "eleven-speak",
+  "version": "0.1.0",
+  "description": "Claude Code plugins for Eleven Speak.",
+  "owner": {
+    "name": "neronotte"
+  },
+  "plugins": [
+    {
+      "name": "eleven-speak",
+      "description": "Give Claude Code a local ElevenLabs voice skill for spoken notifications and requested speech.",
+      "version": "0.1.0",
+      "source": "./",
+      "category": "productivity"
+    }
+  ]
+}
